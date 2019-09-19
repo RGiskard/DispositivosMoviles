@@ -58,9 +58,9 @@ public class SlideBookActivity extends AppCompatActivity implements NavigationVi
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-        getSupportFragmentManager().beginTransaction().replace(R.id.scene,new cFictionFragment()).commit();
-        getSupportFragmentManager().beginTransaction().replace(R.id.scene,new fGoticaFragment()).commit();
-        getSupportFragmentManager().beginTransaction().replace(R.id.scene,new lFantasticFragment()).commit();
+        //getSupportFragmentManager().beginTransaction().replace(R.id.scene,new fGoticaFragment()).commit();
+        //getSupportFragmentManager().beginTransaction().replace(R.id.scene,new cFictionFragment()).commit();
+        //getSupportFragmentManager().beginTransaction().replace(R.id.scene,new lFantasticFragment()).commit();
 
 
     }
@@ -87,6 +87,15 @@ public class SlideBookActivity extends AppCompatActivity implements NavigationVi
             case R.id.nav_home:
                 loadFragment(new cFictionFragment());
                 return  true;
+            case R.id.nav_gallery:
+                loadFragment(new lFantasticFragment());
+                return  true;
+            case R.id.nav_slideshow:
+                loadFragment(new fGoticaFragment());
+                return  true;
+            case R.id.nav_tools:
+                loadFragment(new cHadasFragment());
+                return  true;
 
         }
         drawer.closeDrawer(GravityCompat.START);
@@ -108,3 +117,4 @@ public class SlideBookActivity extends AppCompatActivity implements NavigationVi
         }
     }
 }
+

@@ -108,7 +108,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.nav_home:
                 loadFragment(new cFictionFragment());
                 break;
-
+            case R.id.nav_gallery:
+                loadFragment(new lFantasticFragment());
+                break;
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;
