@@ -1,8 +1,7 @@
 package com.example.lab02;
 
-import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.app.Fragment;
+
 
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,8 +10,10 @@ import com.google.android.material.snackbar.Snackbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentManager;
+import androidx.core.view.GravityCompat;
+import androidx.fragment.app.Fragment;
+
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -30,7 +31,7 @@ import android.view.Menu;
 public class SlideBookActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private AppBarConfiguration mAppBarConfiguration;
-
+    private DrawerLayout drawer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,12 +52,11 @@ public class SlideBookActivity extends AppCompatActivity implements NavigationVi
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send)
-                .setDrawerLayout(drawer)
-                .build();
+                R.id.nav_tools, R.id.nav_share, R.id.nav_send).setDrawerLayout(drawer).build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+        //getSupportFragmentManager().beginTransaction().replace(R.id.scene,new cFictionFragment()).commit();
     }
 
 
@@ -74,29 +74,23 @@ public class SlideBookActivity extends AppCompatActivity implements NavigationVi
                 || super.onSupportNavigateUp();
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-        FragmentManager fm=getSupportFragmentManager();
-        //cFictionFragment fragment = null;
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-            fm.beginTransaction().replace(R.id.scene,new cFictionFragment()).commit();
-        } else if (id == R.id.nav_gallery) {
+    public boolean onNavigationItemSelected(MenuItem menuItem) {
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        switch (menuItem.getItemId()){
+            case R.id.nav_home:
+                loadFragment(new cFictionFragment());
+                return  true;
 
         }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        //drawer.closeDrawer(GravityCompat.START);
-        return true;
-
+        drawer.closeDrawer(GravityCompat.START);
+        return false;
     }
+
+    public void loadFragment(Fragment fragment){
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.scene,fragment);
+        fragmentTransaction.commit();
+    }
+
 }
