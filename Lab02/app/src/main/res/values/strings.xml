@@ -18,4 +18,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="cficcion">Ciencia Ficción</string>
     <string name="cficciontexto">Algunos autores estiman que el término es una mala traducción del inglés science fiction y que la correcta es ficción científica.</string>
+    <string name="lfantastic">Ciencia Ficción</string>
+    <string name="lfantastictexto">Algunos autores estiman que el término es una mala traducción del inglés science fiction y que la correcta es ficción científica.</string>
+    <string name="fgotica">Ciencia Ficción</string>
+    <string name="fgoticatexto">Algunos autores estiman que el término es una mala traducción del inglés science fiction y que la correcta es ficción científica.</string>
+
 </resources>
