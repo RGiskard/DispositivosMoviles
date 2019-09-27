@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paises">
+        <item>España</item>
+        <item>Alemania</item>
+        <item>Francia</item>
+    </string-array>
+
+    <string-array name="ciudadesespana">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+    </string-array>
+
+    <string-array name="ciudadesalemania">
+        <item>Berlin</item>
+        <item>Wacken</item>
+    </string-array>
+
+    <string-array name="ciudadesfrancia">
+        <item>París</item>
+        <item>Marsella</item>
+    </string-array>
+</resources>

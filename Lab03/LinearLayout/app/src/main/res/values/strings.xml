@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Linear Layout</string>
+    <string name="carrito">Carrito de la compra</string>
+    <string name="producto1">Producto 1</string>
+    <string name="producto2">Producto 2</string>
+    <string name="producto3">Producto 3</string>
+    <string name="unidades">unidades</string>
+    <string name="correo">Enviar por correo electrónico</string>
+    <string name="volver">Volver</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="importe">Importe</string>
+    <string name="iva">I.V.A.</string>
+    <string name="total">Total</string>
+</resources>

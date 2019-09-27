@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Colores</string>
+    <string name="FNegro">Fondo Negro</string>
+    <string name="FVerde">Fondo Verde</string>
+    <string name="FRojo">Fondo Rojo</string>
+    <string name="txtBlanco">Texto Blanco</string>
+    <string name="txtAmarillo">Texto Amarillo</string>
+    <string name="txtAzul">Texto Azul</string>
+    <string name="txtMostrar">Mostrar Texto</string>
+</resources>
+
