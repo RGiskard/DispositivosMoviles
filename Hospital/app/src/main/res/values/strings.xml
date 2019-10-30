@@ -5,7 +5,7 @@
     <string name="nav_header_title">Dispositivos Móviles</string>
     <string name="nav_header_subtitle">Sistema Hospitalario</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Opciones</string>
 
     <string name="menu_home">Hospitales</string>
     <string name="menu_gallery">Médicos</string>
@@ -22,4 +22,5 @@
     <string name="nameH">Nombre Hospital</string>
     <string name="dirH">Dirección Hospital</string>
     <string name="fechaC">Ingresar Fecha</string>
+    <string name="consul">Consultar</string>
 </resources>

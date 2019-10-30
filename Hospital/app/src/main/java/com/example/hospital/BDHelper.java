@@ -203,4 +203,24 @@ public class BDHelper extends SQLiteOpenHelper {
 // returnlist
         return listAll;
     }
+    public  List<String> getDoctorsByHospital(String hospital)
+    {
+        List<String> listAll = new ArrayList<String>();
+        String query="SELECT * FROM DOCTOR WHERE TRIM(HOSP) = '"+hospital.trim()+"'";
+        SQLiteDatabase db = getWritableDatabase();
+        android.database.Cursor cursor = db.rawQuery(query, null);
+        if (cursor.moveToFirst()) {
+            do {
+
+                MedicoDetails operatorTable = new MedicoDetails();
+                //here get all data from cursor and set it into setter method like below
+                //operatorTable.getId(Integer.parseInt(cursor.getString(0)));
+                //operatorTable.set_Operator(cursor.getString(1));
+                listAll.add(cursor.getString(1));
+                //operatorList.add(operatorTable);
+
+            } while (cursor.moveToNext());
+        }
+        return  listAll;
+    }
 }
