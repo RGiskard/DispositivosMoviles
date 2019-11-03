@@ -23,8 +23,8 @@ import java.util.List;
 public class ShareFragment extends Fragment {
 
     private ShareViewModel shareViewModel;
-    private Spinner spiner,spinnerDoctores;
-    private Button butonSearch;
+    private Spinner spiner,spinnerDoctores,spinnnerPacientes;
+    private Button butonSearch,butonConsultar;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         shareViewModel =
@@ -34,8 +34,10 @@ public class ShareFragment extends Fragment {
         spiner =(Spinner)view.findViewById(R.id.spHospitalesConsulta);
         butonSearch=(Button)view.findViewById(R.id.btConsultar);
         spinnerDoctores=(Spinner)view.findViewById(R.id.spShowDoctores);
+        spinnnerPacientes=(Spinner)view.findViewById(R.id.spMostrarPaciente);
         List<String> opt=dataBase.getAllHospitales();
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(view.getContext(),android.R.layout.simple_spinner_item,opt);
+        butonConsultar=(Button)view.findViewById(R.id.btCOnsultarPaciente);
         spiner.setAdapter(adapter);
         butonSearch.setOnClickListener(
                 new View.OnClickListener() {
@@ -45,6 +47,18 @@ public class ShareFragment extends Fragment {
                         List<String> doctors=dataBase.getDoctorsByHospital(hospital);
                         ArrayAdapter<String> adapter=new ArrayAdapter<String>(view.getContext(),android.R.layout.simple_spinner_item,doctors);
                         spinnerDoctores.setAdapter(adapter);
+                        spinnnerPacientes.setAdapter(null);
+                    }
+                }
+        );
+        butonConsultar.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        String doctor=String.valueOf(spinnerDoctores.getSelectedItem());
+                        List<String> pacientes=dataBase.getPacientesByDoctor(doctor);
+                        ArrayAdapter<String> adapter=new ArrayAdapter<String>(view.getContext(),android.R.layout.simple_spinner_item,pacientes);
+                        spinnnerPacientes.setAdapter(adapter);
                     }
                 }
         );
