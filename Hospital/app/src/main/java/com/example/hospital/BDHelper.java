@@ -115,7 +115,7 @@ public class BDHelper extends SQLiteOpenHelper {
             bd.execSQL("INSERT INTO CITA VALUES('" + name_id + "','" + name + "','" + date+"')");
             bd.close();
         }
-        Log.i("El id",date);
+        Log.i("El id",name);
     }
 
     public  List<String> getAllPacientes()
@@ -262,4 +262,26 @@ public class BDHelper extends SQLiteOpenHelper {
         }
         return  listAll;
     }
+
+    public  List<String> getCitasByPaciente(String paciente)
+    {
+        List<String> listAll = new ArrayList<String>();
+        String query="SELECT * FROM CITA WHERE TRIM(Name) = '"+paciente.trim()+"'";
+        SQLiteDatabase db = getWritableDatabase();
+        android.database.Cursor cursor = db.rawQuery(query, null);
+        if (cursor.moveToFirst()) {
+            do {
+
+                MedicoDetails operatorTable = new MedicoDetails();
+                //here get all data from cursor and set it into setter method like below
+                //operatorTable.getId(Integer.parseInt(cursor.getString(0)));
+                //operatorTable.set_Operator(cursor.getString(1));
+                listAll.add(cursor.getString(2));
+                //operatorList.add(operatorTable);
+
+            } while (cursor.moveToNext());
+        }
+        return  listAll;
+    }
+
 }

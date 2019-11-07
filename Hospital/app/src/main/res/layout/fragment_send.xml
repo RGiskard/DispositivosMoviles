@@ -7,5 +7,46 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelMedico" />
+
+        <Spinner
+            android:id="@+id/spMedicosConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btconsultarMedicosAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consul" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelPaciente" />
+
+        <Spinner
+            android:id="@+id/spPacienteConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btconsultarPacienteAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consul" />
+
+        <Spinner
+            android:id="@+id/spCitasFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
