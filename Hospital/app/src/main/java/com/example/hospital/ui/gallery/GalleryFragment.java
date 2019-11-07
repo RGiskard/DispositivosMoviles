@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,7 +22,6 @@ import java.util.List;
 
 public class GalleryFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
     private EditText nombreMed,telMed,dirMed;
     private Button boton,botonClean,botonShow;
     private Spinner spin,spin2;
@@ -85,6 +85,11 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 }
                 Toast.makeText(view.getContext(), "Se Agregó Correctamente", Toast.LENGTH_SHORT).show();
             }
+
+            nombreMed.onEditorAction(EditorInfo.IME_ACTION_DONE);
+            telMed.onEditorAction(EditorInfo.IME_ACTION_DONE);
+            dirMed.onEditorAction(EditorInfo.IME_ACTION_DONE);
+
         }
     });
     botonClean.setOnClickListener(new View.OnClickListener() {
@@ -94,6 +99,10 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 dirMed.setText("");
                 //spin.setAdapter(null);
                 Toast.makeText(view.getContext(),"Campos Limpiados",Toast.LENGTH_SHORT).show();
+
+            nombreMed.onEditorAction(EditorInfo.IME_ACTION_DONE);
+            telMed.onEditorAction(EditorInfo.IME_ACTION_DONE);
+            dirMed.onEditorAction(EditorInfo.IME_ACTION_DONE);
                 //view.findViewById(R.layout.fragment_item);
                 //FragmentTransaction transaction = getFragmentManager().beginTransaction();
 

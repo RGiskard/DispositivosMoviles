@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.io.File;
 import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.*;
 
 import android.os.Build;
@@ -22,7 +23,7 @@ public class BDHelper extends SQLiteOpenHelper {
     private static final String Tables="CREATE TABLE IF NOT EXISTS DOCTOR (Doc_ID TEXT,Name TEXT,Addres TEXT,HOSP TEXT,Phone TEXT,PRIMARY KEY(Doc_ID));";
     private static final String Tables2="CREATE TABLE IF NOT EXISTS HOSPITAL (HOS_ID TEXT,Name TEXT,Addres TEXT,PRIMARY KEY(HOS_ID));";
     private static final String Tables3="CREATE TABLE IF NOT EXISTS PACIENTE (PAC_ID TEXT,Name TEXT,Addres TEXT,DOC TEXT,Phone TEXT,PRIMARY KEY(PAC_ID));";
-    private static final String Tables4="CREATE TABLE IF NOT EXISTS CITA (CITA_ID TEXT,Name TEXT,PRIMARY KEY(CITA_ID));";
+    private static final String Tables4="CREATE TABLE IF NOT EXISTS CITA (CITA_ID TEXT,Name TEXT,Date TEXT,PRIMARY KEY(CITA_ID));";
     public BDHelper(@Nullable Context context) {
         super(context, Nombre_BD,  null, Version_BD);
     }
@@ -97,6 +98,24 @@ public class BDHelper extends SQLiteOpenHelper {
         }
         Log.i("El id",name_id);
         // System.out.println(name_id);
+    }
+
+    public void agregarCita(String name,String date) throws NoSuchAlgorithmException {
+        String original = name+date;
+        MessageDigest md = MessageDigest.getInstance("MD5");
+        md.update(original.getBytes());
+        byte[] digest = md.digest();
+        StringBuffer sb = new StringBuffer();
+        for (byte b : digest) {
+            sb.append(String.format("%02x", b & 0xff));
+        }
+        String name_id=sb.toString();
+        SQLiteDatabase bd=getWritableDatabase();
+        if(bd!=null) {
+            bd.execSQL("INSERT INTO CITA VALUES('" + name_id + "','" + name + "','" + date+"')");
+            bd.close();
+        }
+        Log.i("El id",date);
     }
 
     public  List<String> getAllPacientes()

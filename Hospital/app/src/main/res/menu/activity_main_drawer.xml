@@ -14,11 +14,11 @@
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@mipmap/broken_arm"
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/nav_tools"
-            android:icon="@mipmap/doctor"
+            android:icon="@mipmap/medical_history"
             android:title="@string/menu_tools" />
     </group>
 
@@ -26,11 +26,11 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@mipmap/hospital_icon"
+                android:icon="@mipmap/hospital"
                 android:title="@string/menu_share" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@mipmap/medicoss"
+                android:icon="@mipmap/medicine"
                 android:title="@string/menu_send" />
         </menu>
     </item>

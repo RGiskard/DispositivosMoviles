@@ -9,19 +9,32 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/fixPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelPaciente" />
+
         <Spinner
             android:id="@+id/spPacientesCitas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <EditText
-            android:id="@+id/txtDate"
+        <TextView
+            android:id="@+id/fixDoctor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="date"
-            android:hint="@string/fechaC"
-            />
+            android:text="@string/labelMedico" />
+
+        <Spinner
+            android:id="@+id/spMedicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CalendarView
+            android:id="@+id/dateCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btRegisterCita"

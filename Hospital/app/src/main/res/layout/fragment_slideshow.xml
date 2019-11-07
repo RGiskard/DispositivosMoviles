@@ -14,8 +14,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/nombre"/>
+            android:hint="@string/nombre"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/txtTelefonoPaciente"
@@ -30,8 +30,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPostalAddress"
-            android:hint="@string/direc"/>
+            android:hint="@string/direc"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelMedico" />
 
         <Spinner
             android:id="@+id/spPaciente"

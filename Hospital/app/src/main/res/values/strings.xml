@@ -23,4 +23,9 @@
     <string name="dirH">Dirección Hospital</string>
     <string name="fechaC">Ingresar Fecha</string>
     <string name="consul">Consultar</string>
+    <string name="introregHospital">Registro de Hospitales</string>
+    <string name="labelPaciente">Paciente</string>
+    <string name="labelMedico">Médico</string>
+    <string name="labelHospital">Hospital</string>
+
 </resources>

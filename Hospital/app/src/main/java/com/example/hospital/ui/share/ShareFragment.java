@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
@@ -22,13 +23,10 @@ import java.util.List;
 
 public class ShareFragment extends Fragment {
 
-    private ShareViewModel shareViewModel;
     private Spinner spiner,spinnerDoctores,spinnnerPacientes;
     private Button butonSearch,butonConsultar;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        shareViewModel =
-                ViewModelProviders.of(this).get(ShareViewModel.class);
         View view = inflater.inflate(R.layout.fragment_share, container, false);
         final BDHelper dataBase=new BDHelper(view.getContext());
         spiner =(Spinner)view.findViewById(R.id.spHospitalesConsulta);
@@ -46,8 +44,11 @@ public class ShareFragment extends Fragment {
                         String hospital=String.valueOf(spiner.getSelectedItem());
                         List<String> doctors=dataBase.getDoctorsByHospital(hospital);
                         ArrayAdapter<String> adapter=new ArrayAdapter<String>(view.getContext(),android.R.layout.simple_spinner_item,doctors);
+                        if(doctors.isEmpty())
+                            Toast.makeText(view.getContext(), "No se encontraron ocurrencias", Toast.LENGTH_SHORT).show();
                         spinnerDoctores.setAdapter(adapter);
                         spinnnerPacientes.setAdapter(null);
+
                     }
                 }
         );
@@ -59,6 +60,9 @@ public class ShareFragment extends Fragment {
                         List<String> pacientes=dataBase.getPacientesByDoctor(doctor);
                         ArrayAdapter<String> adapter=new ArrayAdapter<String>(view.getContext(),android.R.layout.simple_spinner_item,pacientes);
                         spinnnerPacientes.setAdapter(adapter);
+                        if(pacientes.isEmpty())
+                            Toast.makeText(view.getContext(), "No se encontraron ocurrencias", Toast.LENGTH_SHORT).show();
+
                     }
                 }
         );

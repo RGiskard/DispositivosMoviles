@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,7 +25,6 @@ import java.util.List;
 
 public class SlideshowFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
     private EditText nombrePaciente,telPaciente,dirPaciente;
     private Button botonRegistrar,botonClean,botonShow;
     private Spinner spin;
@@ -48,9 +48,12 @@ public class SlideshowFragment extends Fragment {
                 String telefono = String.valueOf(telPaciente.getText());
                 String direccion = String.valueOf(dirPaciente.getText());
                 String hospital=String.valueOf(spin.getSelectedItem());
-                if(name.isEmpty()||telefono.isEmpty()||direccion.isEmpty())
+
+
+                if(name.isEmpty()||direccion.isEmpty()) {
                     Toast.makeText(view.getContext(), "Complete los Campos", Toast.LENGTH_SHORT).show();
-                else{
+
+                }else{
                     try {
                         dataBase.agregarPaciente(name, telefono, direccion,hospital);
                     } catch (Exception e) {
@@ -58,6 +61,9 @@ public class SlideshowFragment extends Fragment {
                     }
                     Toast.makeText(view.getContext(), "Se Agregó Correctamente", Toast.LENGTH_SHORT).show();
                 }
+                nombrePaciente.onEditorAction(EditorInfo.IME_ACTION_DONE);
+                telPaciente.onEditorAction(EditorInfo.IME_ACTION_DONE);
+                dirPaciente.onEditorAction(EditorInfo.IME_ACTION_DONE);
             }
         });
         botonClean.setOnClickListener(new View.OnClickListener() {
@@ -69,6 +75,9 @@ public class SlideshowFragment extends Fragment {
                 Toast.makeText(view.getContext(),"Campos Limpiados",Toast.LENGTH_SHORT).show();
                 //view.findViewById(R.layout.fragment_item);
                 //FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                nombrePaciente.onEditorAction(EditorInfo.IME_ACTION_DONE);
+                telPaciente.onEditorAction(EditorInfo.IME_ACTION_DONE);
+                dirPaciente.onEditorAction(EditorInfo.IME_ACTION_DONE);
 
             }
         });
