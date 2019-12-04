@@ -41,4 +41,5 @@ dependencies {
     implementation group: 'com.fathzer', name: 'javaluator', version: '3.0.0'
     implementation group: 'org.mariuszgromada.math', name: 'MathParser.org-mXparser', version: '4.1.1'
     implementation group: 'org.apache.commons', name: 'commons-math3', version: '3.2'
+    implementation 'com.jjoe64:graphview:4.2.2'
 }

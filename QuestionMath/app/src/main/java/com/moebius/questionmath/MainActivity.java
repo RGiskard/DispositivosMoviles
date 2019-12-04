@@ -36,6 +36,10 @@ import android.graphics.Color;
 public class MainActivity extends AppCompatActivity {
     public static  final String EXTRA_STATEMENT="com.moebius.problem.EXTRA_STATEMENT";
     public static  final String EXTRA_SOLUTION="com.moebius.problem.EXTRA_SOLUTION";
+    public static  final String EXTRA_Expr="com.moebius.problem.EXTRA_Expr";
+    public static  final String EXTRA_STATEMENT_CALC="com.moebius.problem.EXTRA_STATEMENT_CALC";
+    public static  final String EXTRA_SOLUTION_CALC="com.moebius.problem.EXTRA_SOLUTION_CAL";
+
     SurfaceView cameraView;
     TextView textView;
     CameraSource cameraSource;
@@ -55,12 +59,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,Calculator.class);
         startActivity(intent);
     }
-    public void openActivityResults(String Problem,String sol)
+    public void openActivityResults(String Problem,String sol,String Expr)
     {
         Intent intent=new Intent(this,BoardResult.class);
         intent.putExtra(EXTRA_STATEMENT,Problem);
         intent.putExtra(EXTRA_SOLUTION,sol);
-       // intent.putExtra(Solution)
+        intent.putExtra(EXTRA_Expr,Expr);
+        startActivity(intent);
+    }
+    public void openActivityCalc(String Problem,String sol)
+    {
+        Intent intent=new Intent(this,resultsCalcular.class);
+        intent.putExtra(EXTRA_STATEMENT_CALC,Problem);
+        intent.putExtra(EXTRA_SOLUTION_CALC,sol);
         startActivity(intent);
     }
     public void computeFromCam()
@@ -79,12 +90,15 @@ public class MainActivity extends AppCompatActivity {
         {
             case 0:
                 DoubleEvaluator evaluator = new DoubleEvaluator();
-                Double result = evaluator.evaluate("(2^3-1)*sin(pi/4)/ln(pi^2)");
-                openActivityResults(as.Statement(),"="+result);
+                //Double result = evaluator.evaluate("(2^3-1)*sin(pi/4)/ln(pi^2)");
+                Double result = evaluator.evaluate(as.alternative());
+                openActivityCalc(as.alternative(),"="+result);
+               // Log.i("Algodon:",""+flagOperator+"  "+as.getBasicExpresion());
                 break;
             case 1:
-                AnalizerAndCompute ac=new AnalizerAndCompute("solve( 2*x - 4, x, 0, 10 )");
-                openActivityResults(as.Statement(),ac.Solution());
+               // AnalizerAndCompute ac=new AnalizerAndCompute("solve( 2*x - 4, x, 0, 10 )");
+                AnalizerAndCompute ac=new AnalizerAndCompute(as.Statement());
+                openActivityResults(as.showInTextView(),ac.Solution(),as.getBasicExpresion());
                 break;
             case -1:
                 textView.setText("Nada por hacer");
