@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundLight"
+    tools:context="com.moebius.questionmath.BoardResult">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtProblem"
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            android:text="@string/nothing" />
+
+        <TextView
+            android:id="@+id/txtSolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btBySteps"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_centerInParent="true"
+        android:text="@string/result" />
+</RelativeLayout>

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">QuestionMath</string>
     <string name="buttonCircle">Image Button</string>
+    <string name="nothing">Nada para Mostrar</string>
+    <string name="result">Paso a Paso</string>
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>

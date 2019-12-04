@@ -20,6 +20,11 @@ import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
+import com.fathzer.soft.javaluator.DoubleEvaluator;
+import org.mariuszgromada.math.mxparser.*;
+
+import com.moebius.operadores.AnalizerAndCompute;
+import com.moebius.operadores.AnalizerString;
 
 
 import java.io.IOException;
@@ -29,7 +34,8 @@ import java.io.IOException;
 import android.graphics.Color;
 
 public class MainActivity extends AppCompatActivity {
-
+    public static  final String EXTRA_STATEMENT="com.moebius.problem.EXTRA_STATEMENT";
+    public static  final String EXTRA_SOLUTION="com.moebius.problem.EXTRA_SOLUTION";
     SurfaceView cameraView;
     TextView textView;
     CameraSource cameraSource;
@@ -49,15 +55,43 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,Calculator.class);
         startActivity(intent);
     }
+    public void openActivityResults(String Problem,String sol)
+    {
+        Intent intent=new Intent(this,BoardResult.class);
+        intent.putExtra(EXTRA_STATEMENT,Problem);
+        intent.putExtra(EXTRA_SOLUTION,sol);
+       // intent.putExtra(Solution)
+        startActivity(intent);
+    }
     public void computeFromCam()
     {
         ShuntingYard operador=new ShuntingYard();
         String test=(String.valueOf(textView.getText()));
         int a,b,c;
-        a=test.charAt(0)-'0';
-        b=test.charAt(2)-'0';
-        c=a+b;
-        textView.setText("HEllo funcioona pe:"+String.valueOf(c));
+       // String expression = "(2^3-1)*sin(pi/4)/ln(pi^2)";
+        //String expression = "1+1+1+1";
+        // Evaluate an expression
+        //Double result = evaluator.evaluate(test);
+        AnalizerString as=new AnalizerString(test);
+        //AnalizerAndCompute ac=new AnalizerAndCompute("solve( 2*x - 4, x, 0, 10 )");
+        int flagOperator=as.discriminar();
+        switch (flagOperator)
+        {
+            case 0:
+                DoubleEvaluator evaluator = new DoubleEvaluator();
+                Double result = evaluator.evaluate("(2^3-1)*sin(pi/4)/ln(pi^2)");
+                openActivityResults(as.Statement(),"="+result);
+                break;
+            case 1:
+                AnalizerAndCompute ac=new AnalizerAndCompute("solve( 2*x - 4, x, 0, 10 )");
+                openActivityResults(as.Statement(),ac.Solution());
+                break;
+            case -1:
+                textView.setText("Nada por hacer");
+                break;
+        }
+
+        //textView.setText("El valor:"+test+" "+String.valueOf(result));
     }
 
     @Override

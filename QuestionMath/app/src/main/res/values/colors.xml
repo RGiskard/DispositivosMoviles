@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="appColor">#7D6666</color>
     <color name="colorBackground">#000000</color>
+    <color name="colorBackgroundLight">#DFC5C5</color>
     <color name="colorFunction">#1a1a1a</color>
     <color name="colorOperation">#1a1a1a</color>
     <color name="colorConstant">#1a1a1a</color>
