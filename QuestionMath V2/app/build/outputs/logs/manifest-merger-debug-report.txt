@@ -1,0 +1,396 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\93be33813549cb16f1cb861bd0270602\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\6e331b68b239ac7ffc7f0f7afacc3f53\graphview-4.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9e41d519b0a0aff788a583776f996142\firebase-ml-vision-18.0.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a0c849b29c531377439f5ecaf09892b8\firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a1612baeeceacb90b1ffd476968d7f08\firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\53bd9e3231ed415dc39095a3d7f1e637\firebase-ml-model-interpreter-16.2.3\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\295f2880785d0451777beded853e08d0\play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f45640c964638f93217b113f61408089\play-services-vision-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\88130d85a4d50b9d399a60ec0ad954af\play-services-vision-image-label-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f330fc5c55179f2688768cbe8fdcb249\play-services-vision-common-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c2e707597689b073e6d864b5c73de42a\firebase-ml-common-16.1.5\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5969a09d0f46e27cf3480ef86bf9e08\play-services-clearcut-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\2c3c69de8f50c8aacb2bbb324f99bc56\play-services-flags-16.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\981c0cbb02ca29b481b4f135664b4583\play-services-phenotype-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\7e011df4a57e14f66400b717847f7272\firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b496419e58b693b7a4237d8844a52f20\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\159cfecfe44dfe94cd7d1f56a92de339\play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\375c3493676c9bf8383f8eed27e05989\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ff92f51860174e137bedb46ae3e5d7c1\exifinterface-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ce1c44be9f7fa8b60d4f1ffb95cd044a\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b2b35a7c31460714797e7bcbfc3b9dee\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a5f629df77b698e498b755b26628fee7\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\08bbdd5921fd84ee7c67857b918d6917\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\0b2a07cf7ec97a0f2ccaeb936f387d64\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\229d43aae06ee99363f50702d63541b3\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\4cacaf360c945ba017ace20b488c5606\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\47a633b5246a7c75e14d76a3d5f4b593\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\1e33b51c58d8dfc2b8c5dedf37da52e2\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\5cff404e2755d81add93023abc755950\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f0ebd0ca50db85e77a8baffad76b0722\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c061732c9c1efcf6c140a9fb48874c08\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ffda9fa0117f1af5a27772eed1c63273\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\83f12084d39f3abf93f52f9493355c0a\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\90c9f0c062ecd9c282a7c68acbd27422\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e4d7db44ad54cadf10567dbf91b1dfed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9629c4c3fd0a60213a668954fca63887\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5ee4f22c5c1830a76a83318debac462\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c3ef24be5602a4a89ad13e8f85afdda9\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e174f011afcd9e812c85161ff03c934d\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a467eb5220acb2f3e01c579c4f90b2a4\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e9c170c78acfb30a60d4846384523ee7\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\cd48b6b28227327794a9d21b8a283dcd\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9d958b89d0b98a00367bee2270fe79d1\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\657396b99bd5a6734bb2f599323aaf90\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\1af00e72990f5fbb6c9a9c392b23b80c\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c521466db0ccda2a2cc8480059af6a87\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\dc94ae272f782ae9d3c38ca797ec2395\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\879d1fbeff39246116ce4f7117cceaaf\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\0a07d6c81ccf5b3fbe831dba6c5f31d5\tensorflow-lite-1.10.0\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:5-7:38
+	android:maxSdkVersion
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:7:9-35
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:5-9:38
+	android:maxSdkVersion
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:9:9-35
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:22-77
+uses-feature#android.hardware.camera
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:5-11:35
+	android:required
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:11:9-32
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:19-57
+uses-permission#android.permission.CAMERA
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:12:5-13:52
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:13:9-49
+application
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:14:5-41:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\6e331b68b239ac7ffc7f0f7afacc3f53\graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\6e331b68b239ac7ffc7f0f7afacc3f53\graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a0c849b29c531377439f5ecaf09892b8\firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a0c849b29c531377439f5ecaf09892b8\firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a1612baeeceacb90b1ffd476968d7f08\firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a1612baeeceacb90b1ffd476968d7f08\firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f45640c964638f93217b113f61408089\play-services-vision-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f45640c964638f93217b113f61408089\play-services-vision-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\88130d85a4d50b9d399a60ec0ad954af\play-services-vision-image-label-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\88130d85a4d50b9d399a60ec0ad954af\play-services-vision-image-label-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f330fc5c55179f2688768cbe8fdcb249\play-services-vision-common-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f330fc5c55179f2688768cbe8fdcb249\play-services-vision-common-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5969a09d0f46e27cf3480ef86bf9e08\play-services-clearcut-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5969a09d0f46e27cf3480ef86bf9e08\play-services-clearcut-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\981c0cbb02ca29b481b4f135664b4583\play-services-phenotype-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\981c0cbb02ca29b481b4f135664b4583\play-services-phenotype-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\7e011df4a57e14f66400b717847f7272\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\7e011df4a57e14f66400b717847f7272\firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b496419e58b693b7a4237d8844a52f20\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b496419e58b693b7a4237d8844a52f20\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\159cfecfe44dfe94cd7d1f56a92de339\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\159cfecfe44dfe94cd7d1f56a92de339\play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ce1c44be9f7fa8b60d4f1ffb95cd044a\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ce1c44be9f7fa8b60d4f1ffb95cd044a\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5ee4f22c5c1830a76a83318debac462\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5ee4f22c5c1830a76a83318debac462\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\0a07d6c81ccf5b3fbe831dba6c5f31d5\tensorflow-lite-1.10.0\AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\0a07d6c81ccf5b3fbe831dba6c5f31d5\tensorflow-lite-1.10.0\AndroidManifest.xml:4:5-5:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:20:9-40
+provider#android.support.v4.content.FileProvider
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:grantUriPermissions
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:26:13-47
+	android:authorities
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:24:13-81
+	android:exported
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:23:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:27:13-29:64
+	android:resource
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:29:17-51
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:28:17-67
+activity#com.google.firebase.codelab.mlkit.MainActivity
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:screenOrientation
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:34:13-74
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:38:27-74
+uses-sdk
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\93be33813549cb16f1cb861bd0270602\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\93be33813549cb16f1cb861bd0270602\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\6e331b68b239ac7ffc7f0f7afacc3f53\graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\6e331b68b239ac7ffc7f0f7afacc3f53\graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9e41d519b0a0aff788a583776f996142\firebase-ml-vision-18.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:18.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9e41d519b0a0aff788a583776f996142\firebase-ml-vision-18.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a0c849b29c531377439f5ecaf09892b8\firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a0c849b29c531377439f5ecaf09892b8\firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a1612baeeceacb90b1ffd476968d7f08\firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a1612baeeceacb90b1ffd476968d7f08\firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\53bd9e3231ed415dc39095a3d7f1e637\firebase-ml-model-interpreter-16.2.3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:16.2.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\53bd9e3231ed415dc39095a3d7f1e637\firebase-ml-model-interpreter-16.2.3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\295f2880785d0451777beded853e08d0\play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\295f2880785d0451777beded853e08d0\play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f45640c964638f93217b113f61408089\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f45640c964638f93217b113f61408089\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\88130d85a4d50b9d399a60ec0ad954af\play-services-vision-image-label-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\88130d85a4d50b9d399a60ec0ad954af\play-services-vision-image-label-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f330fc5c55179f2688768cbe8fdcb249\play-services-vision-common-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f330fc5c55179f2688768cbe8fdcb249\play-services-vision-common-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c2e707597689b073e6d864b5c73de42a\firebase-ml-common-16.1.5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.5] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c2e707597689b073e6d864b5c73de42a\firebase-ml-common-16.1.5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5969a09d0f46e27cf3480ef86bf9e08\play-services-clearcut-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5969a09d0f46e27cf3480ef86bf9e08\play-services-clearcut-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\2c3c69de8f50c8aacb2bbb324f99bc56\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\2c3c69de8f50c8aacb2bbb324f99bc56\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\981c0cbb02ca29b481b4f135664b4583\play-services-phenotype-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\981c0cbb02ca29b481b4f135664b4583\play-services-phenotype-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\7e011df4a57e14f66400b717847f7272\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\7e011df4a57e14f66400b717847f7272\firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b496419e58b693b7a4237d8844a52f20\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b496419e58b693b7a4237d8844a52f20\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\159cfecfe44dfe94cd7d1f56a92de339\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\159cfecfe44dfe94cd7d1f56a92de339\play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\375c3493676c9bf8383f8eed27e05989\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\375c3493676c9bf8383f8eed27e05989\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ff92f51860174e137bedb46ae3e5d7c1\exifinterface-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ff92f51860174e137bedb46ae3e5d7c1\exifinterface-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ce1c44be9f7fa8b60d4f1ffb95cd044a\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ce1c44be9f7fa8b60d4f1ffb95cd044a\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b2b35a7c31460714797e7bcbfc3b9dee\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\b2b35a7c31460714797e7bcbfc3b9dee\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a5f629df77b698e498b755b26628fee7\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a5f629df77b698e498b755b26628fee7\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\08bbdd5921fd84ee7c67857b918d6917\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\08bbdd5921fd84ee7c67857b918d6917\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\0b2a07cf7ec97a0f2ccaeb936f387d64\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\0b2a07cf7ec97a0f2ccaeb936f387d64\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\229d43aae06ee99363f50702d63541b3\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\229d43aae06ee99363f50702d63541b3\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\4cacaf360c945ba017ace20b488c5606\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\4cacaf360c945ba017ace20b488c5606\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\47a633b5246a7c75e14d76a3d5f4b593\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\47a633b5246a7c75e14d76a3d5f4b593\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\1e33b51c58d8dfc2b8c5dedf37da52e2\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\1e33b51c58d8dfc2b8c5dedf37da52e2\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\5cff404e2755d81add93023abc755950\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\5cff404e2755d81add93023abc755950\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f0ebd0ca50db85e77a8baffad76b0722\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f0ebd0ca50db85e77a8baffad76b0722\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c061732c9c1efcf6c140a9fb48874c08\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c061732c9c1efcf6c140a9fb48874c08\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ffda9fa0117f1af5a27772eed1c63273\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\ffda9fa0117f1af5a27772eed1c63273\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\83f12084d39f3abf93f52f9493355c0a\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\83f12084d39f3abf93f52f9493355c0a\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\90c9f0c062ecd9c282a7c68acbd27422\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\90c9f0c062ecd9c282a7c68acbd27422\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e4d7db44ad54cadf10567dbf91b1dfed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e4d7db44ad54cadf10567dbf91b1dfed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9629c4c3fd0a60213a668954fca63887\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9629c4c3fd0a60213a668954fca63887\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5ee4f22c5c1830a76a83318debac462\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f5ee4f22c5c1830a76a83318debac462\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c3ef24be5602a4a89ad13e8f85afdda9\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c3ef24be5602a4a89ad13e8f85afdda9\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e174f011afcd9e812c85161ff03c934d\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e174f011afcd9e812c85161ff03c934d\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a467eb5220acb2f3e01c579c4f90b2a4\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\a467eb5220acb2f3e01c579c4f90b2a4\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e9c170c78acfb30a60d4846384523ee7\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e9c170c78acfb30a60d4846384523ee7\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\cd48b6b28227327794a9d21b8a283dcd\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\cd48b6b28227327794a9d21b8a283dcd\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9d958b89d0b98a00367bee2270fe79d1\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\9d958b89d0b98a00367bee2270fe79d1\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\657396b99bd5a6734bb2f599323aaf90\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\657396b99bd5a6734bb2f599323aaf90\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\1af00e72990f5fbb6c9a9c392b23b80c\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\1af00e72990f5fbb6c9a9c392b23b80c\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c521466db0ccda2a2cc8480059af6a87\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\c521466db0ccda2a2cc8480059af6a87\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\dc94ae272f782ae9d3c38ca797ec2395\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\dc94ae272f782ae9d3c38ca797ec2395\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\879d1fbeff39246116ce4f7117cceaaf\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\879d1fbeff39246116ce4f7117cceaaf\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12 reason: org.tensorflow.lite has a targetSdkVersion < 4

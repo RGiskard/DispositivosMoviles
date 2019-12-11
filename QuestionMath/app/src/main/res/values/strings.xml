@@ -13,7 +13,6 @@
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
-
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="multiplication">x</string>
@@ -25,7 +24,6 @@
     <string name="clear">C</string>
     <string name="RAD">RAD</string>
     <string name="DEG">DEG</string>
-
     <string name="parentheses_open">(</string>
     <string name="parentheses_close">)</string>
     <string name="root">"\u221A"</string>
