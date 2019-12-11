@@ -13,6 +13,7 @@ reconocen por ordenes tomadas con la cámara ejemplos:
 
 * resolver x+5 [0-10]
 
+
 * calcular sin(pi)/2+5
 
 Ambas expresiones deben de ser ingresadas por la cámaa o por teclado sea la versión 2. la intrucción inicial resolver, calcular
