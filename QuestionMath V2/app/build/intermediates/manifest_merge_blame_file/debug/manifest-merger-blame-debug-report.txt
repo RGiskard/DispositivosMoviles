@@ -11,31 +11,31 @@
 9-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:5-67
 11-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission
-12-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:5-7:38
+12-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:5-8:38
 13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-13-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:22-78
+13-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:7:9-65
 14        android:maxSdkVersion="18" />
-14-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:7:9-35
+14-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:9-35
 15    <uses-permission
-15-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:5-9:38
+15-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:9:5-11:38
 16        android:name="android.permission.READ_EXTERNAL_STORAGE"
-16-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:22-77
+16-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:9-64
 17        android:maxSdkVersion="18" />
-17-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:9:9-35
+17-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:11:9-35
 18
 19    <uses-feature
-19-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:5-11:35
+19-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:13:5-15:35
 20        android:name="android.hardware.camera"
-20-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:19-57
+20-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:14:9-47
 21        android:required="true" />
-21-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:11:9-32
+21-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:15:9-32
 22
 23    <uses-permission android:name="android.permission.CAMERA" />
-23-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:12:5-13:52
-23-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:13:9-49
+23-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:17:5-65
+23-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:17:22-62
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 24-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
 24-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:22:22-76
@@ -48,135 +48,142 @@
 27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 28
 29    <application
-29-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:14:5-41:19
+29-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:19:5-49:19
 30        android:allowBackup="true"
-30-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:15:9-35
+30-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:20:9-35
 31        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
 31-->[com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 32        android:debuggable="true"
 33        android:icon="@mipmap/ic_launcher"
-33-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:16:9-43
+33-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:21:9-43
 34        android:label="@string/app_name"
-34-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:17:9-41
+34-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:22:9-41
 35        android:roundIcon="@mipmap/ic_launcher_round"
-35-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:18:9-54
+35-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:23:9-54
 36        android:supportsRtl="true"
-36-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:19:9-35
+36-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:24:9-35
 37        android:testOnly="true"
 38        android:theme="@style/AppTheme" >
-38-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:20:9-40
-39        <provider
-39-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:22:9-30:20
-40            android:name="android.support.v4.content.FileProvider"
-40-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:23:13-67
-41            android:authorities="com.google.firebase.codelab.mlkit.fileprovider"
-41-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:24:13-81
-42            android:exported="false"
-42-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:25:13-37
-43            android:grantUriPermissions="true" >
-43-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:26:13-47
-44            <meta-data
-44-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:27:13-29:64
-45                android:name="android.support.FILE_PROVIDER_PATHS"
-45-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:28:17-67
-46                android:resource="@xml/file_paths" />
-46-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:29:17-51
-47        </provider>
-48
-49        <activity
-49-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:9-40:20
-50            android:name="com.google.firebase.codelab.mlkit.MainActivity"
-50-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:19-47
-51            android:configChanges="keyboardHidden|orientation|screenSize"
-51-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:34:13-74
-52            android:screenOrientation="portrait" >
-52-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:33:13-49
-53            <intent-filter>
-53-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:35:13-39:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:17-69
-54-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:38:17-77
-56-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:38:27-74
-57            </intent-filter>
-58        </activity>
-59
-60        <service
-60-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
-61            android:name="com.google.firebase.components.ComponentDiscoveryService"
-61-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
-62            android:exported="false" >
-62-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
-63            <meta-data
-63-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
-64                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-64-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
-65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
-66        </service>
-67
-68        <receiver
-68-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
-69            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-69-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
-70            android:exported="true"
-70-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
-71            android:permission="com.google.android.c2dm.permission.SEND" >
-71-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
-72            <intent-filter>
-72-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
-73                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-73-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
-73-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
-74            </intent-filter>
-75        </receiver>
-76        <!--
-77             FirebaseInstanceIdService performs security checks at runtime,
-78             no need for explicit permissions despite exported="true"
-79        -->
-80        <service
-80-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
-81            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-81-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
-82            android:exported="true" >
-82-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
-83            <intent-filter android:priority="-500" >
-83-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
-83-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
-84                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-84-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
-84-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
-85            </intent-filter>
-86        </service>
-87
-88        <activity
-88-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-92
-93        <provider
-93-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-94            android:name="com.google.firebase.provider.FirebaseInitProvider"
-94-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-95            android:authorities="com.google.firebase.codelab.mlkit.firebaseinitprovider"
-95-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-96            android:exported="false"
-96-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-97            android:initOrder="100" />
-97-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-98
-99        <meta-data
-99-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
-100            android:name="com.google.android.gms.version"
-100-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
-101            android:value="@integer/google_play_services_version" />
-101-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
-102    </application>
-103
-104</manifest>
+38-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:25:9-40
+39        <activity android:name="com.google.firebase.codelab.mlkit.resultsCalcular" />
+39-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:26:9-62
+39-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:26:19-50
+40        <activity android:name="com.google.firebase.codelab.mlkit.BoardResult" />
+40-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:27:9-49
+40-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:27:19-46
+41
+42        <provider
+42-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:29:9-37:20
+43            android:name="android.support.v4.content.FileProvider"
+43-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:30:13-67
+44            android:authorities="com.google.firebase.codelab.mlkit.fileprovider"
+44-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:31:13-81
+45            android:exported="false"
+45-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:13-37
+46            android:grantUriPermissions="true" >
+46-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:33:13-47
+47            <meta-data
+47-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:34:13-36:54
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:35:17-67
+49                android:resource="@xml/file_paths" />
+49-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:17-51
+50        </provider>
+51
+52        <activity
+52-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:39:9-48:20
+53            android:name="com.google.firebase.codelab.mlkit.MainActivity"
+53-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:40:13-41
+54            android:configChanges="keyboardHidden|orientation|screenSize"
+54-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:41:13-74
+55            android:screenOrientation="portrait" >
+55-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:42:13-49
+56            <intent-filter>
+56-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:43:13-47:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:44:17-69
+57-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:44:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:46:17-77
+59-->D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:46:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <service
+63-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+65            android:exported="false" >
+65-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+66            <meta-data
+66-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+67                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+67-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+69        </service>
+70
+71        <receiver
+71-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+72            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+72-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+73            android:exported="true"
+73-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+74            android:permission="com.google.android.c2dm.permission.SEND" >
+74-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+75            <intent-filter>
+75-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+76                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+76-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+76-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+77            </intent-filter>
+78        </receiver>
+79        <!--
+80             FirebaseInstanceIdService performs security checks at runtime,
+81             no need for explicit permissions despite exported="true"
+82        -->
+83        <service
+83-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+84            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+84-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+85            android:exported="true" >
+85-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+86            <intent-filter android:priority="-500" >
+86-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+86-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+87                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+87-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+87-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+88            </intent-filter>
+89        </service>
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\e25e1d4b195a7ef3484c0fdcddb3587c\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+95
+96        <provider
+96-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+97            android:name="com.google.firebase.provider.FirebaseInitProvider"
+97-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+98            android:authorities="com.google.firebase.codelab.mlkit.firebaseinitprovider"
+98-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\86305aba1d589b500526fea7adc59baf\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+105    </application>
+106
+107</manifest>

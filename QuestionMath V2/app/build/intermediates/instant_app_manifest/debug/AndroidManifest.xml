@@ -37,6 +37,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.google.firebase.codelab.mlkit.resultsCalcular" />
+        <activity android:name="com.google.firebase.codelab.mlkit.BoardResult" />
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.google.firebase.codelab.mlkit.fileprovider"

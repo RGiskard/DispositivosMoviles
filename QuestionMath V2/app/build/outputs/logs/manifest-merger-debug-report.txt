@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\93be33813549cb16f1cb861bd0270602\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\6e331b68b239ac7ffc7f0f7afacc3f53\graphview-4.2.2\AndroidManifest.xml:2:1-14:12
@@ -59,53 +59,53 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Moebius\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\dc94ae272f782ae9d3c38ca797ec2395\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\879d1fbeff39246116ce4f7117cceaaf\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\0a07d6c81ccf5b3fbe831dba6c5f31d5\tensorflow-lite-1.10.0\AndroidManifest.xml:2:1-6:12
-INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\8699cf596583d71a14259b6e22984a40\firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:5-7:38
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:5-8:38
 	android:maxSdkVersion
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:9-35
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:7:9-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:5-9:38
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:9:5-11:38
 	android:maxSdkVersion
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:11:9-35
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:9-64
 uses-feature#android.hardware.camera
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:5-11:35
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:13:5-15:35
 	android:required
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:11:9-32
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:15:9-32
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:10:19-57
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:14:9-47
 uses-permission#android.permission.CAMERA
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:12:5-13:52
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:17:5-65
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:13:9-49
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:17:22-62
 application
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:14:5-41:19
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:19:5-49:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\f948025a08f5b7d34a71a455d14b62a1\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\6e331b68b239ac7ffc7f0f7afacc3f53\graphview-4.2.2\AndroidManifest.xml:11:5-12:19
@@ -149,51 +149,59 @@ MERGED from [org.tensorflow:tensorflow-lite:1.10.0] C:\Users\Moebius\.gradle\cac
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\96dd889dbc6ebc1978121c9f12c1502c\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:22:9-41
 	android:roundIcon
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:23:9-54
 	android:icon
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:25:9-40
+activity#com.google.firebase.codelab.mlkit.resultsCalcular
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:26:9-62
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:26:19-50
+activity#com.google.firebase.codelab.mlkit.BoardResult
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:27:9-49
+	android:name
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:27:19-46
 provider#android.support.v4.content.FileProvider
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:grantUriPermissions
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:26:13-47
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:33:13-47
 	android:authorities
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:24:13-81
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:31:13-81
 	android:exported
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:23:13-67
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:30:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:27:13-29:64
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:34:13-36:54
 	android:resource
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:29:17-51
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:17-51
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:28:17-67
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:35:17-67
 activity#com.google.firebase.codelab.mlkit.MainActivity
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:39:9-48:20
 	android:screenOrientation
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:42:13-49
 	android:configChanges
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:34:13-74
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:41:13-74
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:32:19-47
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:40:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:46:27-74
 uses-sdk
 INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml
@@ -393,4 +401,4 @@ ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebi
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Moebius\.gradle\caches\transforms-2\files-2.1\407b96b35a4130e678869fe96a8e92dc\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-43:12 reason: org.tensorflow.lite has a targetSdkVersion < 4
+IMPLIED from D:\Eclipse_Workspace\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-51:12 reason: org.tensorflow.lite has a targetSdkVersion < 4

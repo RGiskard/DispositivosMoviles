@@ -1118,6 +1118,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btBySteps
+id btByStepsCalc
 id buttonPanel
 id button_photo
 id button_process
@@ -1164,6 +1166,7 @@ id fixed
 id forever
 id ghost_view
 id gone
+id graph
 id graphic_overlay
 id group_divider
 id groups
@@ -1286,6 +1289,10 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txtProblem
+id txtProblemCalc
+id txtSolution
+id txtSolutionCalc
 id uniform
 id unlabeled
 id up
@@ -1344,7 +1351,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_board_result
 layout activity_main
+layout activity_results_calcular
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

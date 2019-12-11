@@ -3,31 +3,31 @@
 3    package="com.google.firebase.codelab.mlkit.test" >
 4
 5    <uses-sdk
-5-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:5:5-74
+5-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:5:5-74
 6        android:minSdkVersion="19"
-6-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:5:15-41
+6-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:5:15-41
 7        android:targetSdkVersion="28" />
-7-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:5:42-71
+7-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:11:5-15:83
+9-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:11:5-15:83
 10        android:name="android.support.test.runner.AndroidJUnitRunner"
-10-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:11:22-83
+10-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:11:22-83
 11        android:functionalTest="false"
-11-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:14:22-52
+11-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:13:22-53
+12-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:13:22-53
 13        android:label="Tests for com.google.firebase.codelab.mlkit"
-13-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:15:22-81
+13-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:15:22-81
 14        android:targetPackage="com.google.firebase.codelab.mlkit" />
-14-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:12:22-79
+14-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:12:22-79
 15
 16    <application android:debuggable="true" >
-16-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:7:5-9:19
-16-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:7:18-43
+16-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:7:5-9:19
+16-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:7:18-43
 17        <uses-library android:name="android.test.runner" />
-17-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:8:9-60
-17-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5167081993586987741.xml:8:23-57
+17-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:8:9-60
+17-->D:\Eclipse_Workspace\OCR-Reader\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6906153016388807094.xml:8:23-57
 18    </application>
 19
 20</manifest>

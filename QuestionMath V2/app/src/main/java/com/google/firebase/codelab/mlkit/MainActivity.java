@@ -1,19 +1,4 @@
-// Copyright 2018 Google LLC
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 package com.google.firebase.codelab.mlkit;
-
 import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
@@ -44,6 +29,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fathzer.soft.javaluator.DoubleEvaluator;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -86,6 +72,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+import operadores.AnalizerAndCompute;
+import operadores.AnalizerString;
+
 public class MainActivity extends AppCompatActivity{
     public static  final String EXTRA_STATEMENT="com.moebius.problem.EXTRA_STATEMENT";
     public static  final String EXTRA_SOLUTION="com.moebius.problem.EXTRA_SOLUTION";
@@ -105,6 +94,57 @@ public class MainActivity extends AppCompatActivity{
     private String mCurrentPhotoPath;
     private final int PERMISSION_REQUEST_CAMERA = 1;
 
+
+    public void openActivityResults(String Problem,String sol,String Expr)
+    {
+        Intent intent=new Intent(this,BoardResult.class);
+        intent.putExtra(EXTRA_STATEMENT,Problem);
+        intent.putExtra(EXTRA_SOLUTION,sol);
+        intent.putExtra(EXTRA_Expr,Expr);
+        startActivity(intent);
+    }
+    public void openActivityCalc(String Problem,String sol)
+    {
+        Intent intent=new Intent(this,resultsCalcular.class);
+        intent.putExtra(EXTRA_STATEMENT_CALC,Problem);
+        intent.putExtra(EXTRA_SOLUTION_CALC,sol);
+        startActivity(intent);
+    }
+
+    public void computeFromCam()
+    {
+
+        String test=(String.valueOf(mTextView.getText()));
+        int a,b,c;
+        // String expression = "(2^3-1)*sin(pi/4)/ln(pi^2)";
+        //String expression = "1+1+1+1";
+        // Evaluate an expression
+        //Double result = evaluator.evaluate(test);
+        AnalizerString as=new AnalizerString(test);
+        //AnalizerAndCompute ac=new AnalizerAndCompute("solve( 2*x - 4, x, 0, 10 )");
+        int flagOperator=as.discriminar();
+        switch (flagOperator)
+        {
+            case 0:
+                DoubleEvaluator evaluator = new DoubleEvaluator();
+                //Double result = evaluator.evaluate("(2^3-1)*sin(pi/4)/ln(pi^2)");
+                Double result = evaluator.evaluate(as.alternative());
+                openActivityCalc(as.alternative(),"="+result);
+                // Log.i("Algodon:",""+flagOperator+"  "+as.getBasicExpresion());
+                break;
+            case 1:
+                // AnalizerAndCompute ac=new AnalizerAndCompute("solve( 2*x - 4, x, 0, 10 )");
+                AnalizerAndCompute ac=new AnalizerAndCompute(as.Statement());
+                openActivityResults(as.showInTextView(),ac.Solution(),as.getBasicExpresion());
+                break;
+            case -1:
+                mTextView.setText("Nada por hacer");
+                break;
+        }
+
+        //textView.setText("El valor:"+test+" "+String.valueOf(result));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -116,15 +156,20 @@ public class MainActivity extends AppCompatActivity{
         mPhotoButton = findViewById(R.id.button_photo);
 
         mGraphicOverlay = findViewById(R.id.graphic_overlay);
-
+        mExecuteButton =findViewById(R.id.button_process);
         mPhotoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dispatchTakePictureIntent();
             }
         });
+        mExecuteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                computeFromCam();
+            }
+        });
 
-        mExecuteButton =findViewById(R.id.button_process);
         checkCameraPermission();
     }
 
